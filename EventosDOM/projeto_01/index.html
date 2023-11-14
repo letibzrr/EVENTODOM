@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Multas</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="box">
+        <h1 class="h1">Verificador de Multas</h1>
+        
+        <h3 class="h3">Nesse site você descobrirá se sua velocidade percorrida recebeu multa ou não.<br>Preencha o dado abaixo e descubra!</h3>
+        <label for="">Informe a Velocidade (km/h): </label>
+        <input type="number" id="velocidade" placeholder="Digite a Velocidade:">
+        <button onclick="verificarMulta()">Verificar Multa</button>
+        <div id="resultado"></div>
+<br>
+        <h4>Código de Trânsito Brasileiro (CTB) classifica as multas em quatro formas diferentes, como consta no Artigo 258:</h4>
+        <h4>Gravíssima - punida com multa no valor de R$ 293,47 e menos 7 pontos na CNH;</h4>
+        <h4>Grave - punida com multa no valor de R$ 195,23 e menos 5 pontos na CNH;</h4>
+        <h4>Média - punida com multa no valor de R$ 130,16 e menos 4 pontos na CNH;</h4>
+        <h4>Leve - punida com multa no valor de R$ 88,38 e menos 3 pontos na CNH;</h4>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
