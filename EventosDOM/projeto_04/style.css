@@ -1,0 +1,13 @@
+body{
+    transition: 0.1s;
+    text-align: center;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+button{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+}
