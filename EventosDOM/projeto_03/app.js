@@ -14,5 +14,13 @@ btns.forEach(function(btn){
             count++;
         }
         value.textContent = count
+
+    if(count>0){
+            value.style.color='#008000'
+        }else if(count<0){
+            value.style.color='#ff0000'
+        }else if(count===0){
+            value.style.color='#000000'
+        }
     }) 
 })
